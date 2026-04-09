@@ -1,7 +1,5 @@
-number = (input("Enter a number: "))
+numbers = range(1, 31)
 
-sum = 0
-for i in number:
-    sum = sum + int(i)
-
-print(f"Sum of digits: {sum} ")
+for i in numbers:
+    if i % 3 == 0:
+        print(i)
