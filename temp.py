@@ -1,5 +1,7 @@
-numbers = range(1, 31)
+def sum_all(*numbers):
+    number = 0
+    for i in numbers:
+        number = number + i
+    return number
 
-for i in numbers:
-    if i % 3 == 0:
-        print(i)
+print(sum_all(1,2,3))
